@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+<div class="footer">
+    <div class="logotaps">
+    <div class="logo">
+        <img src="logo.svg" alt="">
+    </div>
+    <form class="taps" action="file:///D:/Work/Training/My%20Projects/Sun%20and%20Dark/Sun%20and%20Dark.html">
+        <button type="submit">Collections</button>
+        <button type="submit">Men</button>
+        <button type="submit">Women</button>
+        <button type="submit">About</button>
+        <button type="submit">Contact</button>
+     </form>
+    </div>
+    <div class="user">
+        <div class="cart">
+            <div id="items">0</div>
+            <img src="icon-cart.svg" alt=""></div>
+        <div class="avatar"><img src="image-avatar.png" alt=""></div>
+    </div>
+</div>
+<div class="container">
+    <div class="left-part">
+        <div class="pic1"><img id="product0" src="image-product-1.jpg" alt=""></div>
+        <div class="allpic">
+            <img id="product1" src="image-product-1-thumbnail.jpg" alt="" onclick="product11()">
+            <img id="product2" src="image-product-2-thumbnail.jpg" alt="" onclick="product22()">
+            <img id="product3" src="image-product-3-thumbnail.jpg" alt="" onclick="product33()">
+            <img id="product4" src="image-product-4-thumbnail.jpg" alt="" onclick="product44()">
+        </div>
+    </div>
+    <div class="right-part">
+        <p>SNEAKER COMPANY</p>
+        <h3>Fall Limited Edition <br> Sneakers</h3>
+        <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber outer sole, they`ll <br> withstand everything the weather can offer.</p>
+        <h2>$125.00 <span>50%</span></h2>
+        <h1>$250.00</h1>
+        <div class="last-part">
+            <div class="count">
+                <i class="fa-solid fa-minus" onclick="decrementValue()"></i>
+                <p id="number">0</p>
+                <i id="plus" class="fa-solid fa-plus" onclick="incrementValue()"></i>
+                </div>
+            <button onclick="addItem()"><i class="fa-solid fa-cart-shopping"></i> Add to cart </button>
+        </div>
+        <div class="limet" id="x">
+                Limet itme reached..
+        </div>
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
